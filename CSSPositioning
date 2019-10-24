@@ -1,0 +1,28 @@
+HTML CSS Positioning
+https://www.youtube.com/watch?v=-vo0HzNHL3U
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.common{
+font-size: 30px; color:white;
+}
+.first{
+background-color:green;
+}
+.second{
+background-color:red; position: relative; top: 10px;
+}
+.third{
+background-color:blue; 
+}
+</style>
+</head>
+<body>
+
+<div class="first common">First</div>
+<div class="second common">Second</div>
+<div class="third common">Third</div>
+</body>
+</html>
+
